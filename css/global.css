@@ -1,0 +1,39 @@
+* { box-sizing: border-box;}
+img { width: 100% }
+body{
+    background: #93A8AC;
+}
+.tabs ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.tabs li{
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #93A8AC;
+    padding: 10px 20px 10px 10px;
+    border-radius: 5px;
+    background: grey;
+    border-bottom: 0;
+    transition: all .3 ease;
+    margin-top: 60px;
+}
+.tabs li:hover, .tabs li:focus, .tabs li.active {
+    background: white;
+}
+.tab{
+    padding: 0;
+    margin: 0;
+    border: 1px solid #93A8AC;
+    box-shadow: 0 3px 3px;
+    padding: 10px;
+    background: white;
+    display: none;
+}
+.tab.active{
+    display: block;
+}
+.tab h1{
+    margin: 0;
+}
